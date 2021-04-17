@@ -1,0 +1,33 @@
+{
+  "name": "flutter-web-discord-clone",
+  "version": "1.0.0",
+  "description": "A discord clone built with Flutter 2.0 Web",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "flutter pub run build_runner build --delete-conflicting-outputs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlomigueldy/flutter-web-discord-clone.git"
+  },
+  "keywords": [
+    "flutter",
+    "web",
+    "discord",
+    "clone",
+    "discord",
+    "dart",
+    "supabase"
+  ],
+  "author": "Carlo Miguel Dy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlomigueldy/flutter-web-discord-clone/issues"
+  },
+  "homepage": "https://github.com/carlomigueldy/flutter-web-discord-clone#readme"
+}

@@ -208,7 +208,7 @@ packages:
       name: flutter_dotenv
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.0"
+    version: "4.0.0-nullsafety.0"
   flutter_hooks:
     dependency: transitive
     description:

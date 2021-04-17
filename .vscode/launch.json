@@ -5,10 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Default",
+      "request": "launch",
+      "type": "dart",
+    },
+    {
       "name": "Web",
       "request": "launch",
       "type": "dart",
       "deviceId": "Chrome"
+    },
+    {
+      "name": "Mobile",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "sdk gphone x86 arm"
     }
   ]
 }
