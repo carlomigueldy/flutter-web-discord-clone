@@ -1,5 +1,6 @@
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
+import 'package:stacked_starter_template/services/server_service.dart';
 import 'package:stacked_starter_template/ui/views/demo_grid/demo_grid_view.dart';
 import 'package:stacked_starter_template/ui/views/demo_list/demo_list_view.dart';
 import 'package:stacked_starter_template/ui/views/home/home_view.dart';
@@ -35,6 +36,7 @@ import 'package:stacked_starter_template/ui/views/single_item/single_item_view.d
     LazySingleton(classType: DialogService),
     LazySingleton(classType: BottomSheetService),
     LazySingleton(classType: SnackbarService),
+    LazySingleton(classType: ServerService),
   ],
 )
 class AppSetup {}
