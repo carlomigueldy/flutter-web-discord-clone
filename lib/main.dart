@@ -5,8 +5,10 @@ import 'package:stacked_starter_template/app/app.locator.dart';
 import 'package:stacked_starter_template/app/app.router.dart';
 import 'package:stacked_starter_template/styles/themes.dart';
 import 'package:stacked_themes/stacked_themes.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart' as DotEnv;
 
 Future<void> main() async {
+  await DotEnv.load(fileName: '.env');
   await ThemeManager.initialise();
   setupLocator();
   runApp(App());
